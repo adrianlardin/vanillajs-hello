@@ -1,5 +1,17 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(254, 245, 231, 1),
+        rgba(255, 231, 184, 1),
+        rgba(254, 245, 231, 1)
+    );
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
-body{
-    background: white;
 }
